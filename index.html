@@ -17,37 +17,69 @@
   </header>
 
   <div class="hero">
-    <h1>Umbrella Classes</h1>
+    <h1 class="green-title">Umbrella Classes</h1>
     <p>Every Student, Every Concept — Covered</p>
-    <button>Book a Free Trial</button>
+    <a href="#contact"><button>Book a Free Trial</button></a>
   </div>
 
   <section id="about">
     <h2>About Us</h2>
-    <p>
-      With over 10 years of teaching experience, Umbrella Classes offers personalised
-      Maths, Science and Computer lessons for students from Grade 5 to Grade 12, including 
-      CBSE, ICSE, and IGCSE boards. <b>Our mission is to make learning easy, engaging, and effective.</b>
-    </p>
+    <div class="about-highlight">
+      <span class="about-icon">🌈</span>
+      <div class="about-text">
+        <strong>Umbrella Classes</strong> brings <strong>10+ years of teaching experience</strong> to help students excel in Maths, Science, and Computer Science.<br><br>
+        <ul>
+          <li>Personalised lessons for CBSE, ICSE & IGCSE boards</li>
+          <li>Focus on conceptual clarity and doubt solving</li>
+          <li>Interactive, easy-to-understand teaching approach</li>
+          <li>Passionate about making learning engaging and effective!</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <section id="classes">
     <h2>Subjects & Grades</h2>
-    <ul>
-      <li>Mathematics – Grades 5–12</li>
-      <li>Science – Grades 5–10</li>
-      <li>Physics & Chemistry – Grades 11–12</li>
-      <li>Computer Science – Grades 5–12</li>
-      <li>Exam Preparation & Doubt-Solving Sessions</li>
-    </ul>
+    <div class="subjects-grid">
+      <div class="subject-card">
+        <span class="subject-icon">🧮</span>
+        <h3>Mathematics</h3>
+        <p>Grades 5–12</p>
+        <small>Concepts, Problem Solving, Olympiad Prep</small>
+      </div>
+      <div class="subject-card">
+        <span class="subject-icon">🔬</span>
+        <h3>Science</h3>
+        <p>Grades 5–10</p>
+        <small>Physics, Chemistry, Biology basics</small>
+      </div>
+      <div class="subject-card">
+        <span class="subject-icon">⚗️</span>
+        <h3>Physics & Chemistry</h3>
+        <p>Grades 11–12</p>
+        <small>Advanced exam preparation, concepts & doubts</small>
+      </div>
+      <div class="subject-card">
+        <span class="subject-icon">💻</span>
+        <h3>Computer Science</h3>
+        <p>Grades 5–12</p>
+        <small>Programming, Logic, Projects</small>
+      </div>
+      <div class="subject-card">
+        <span class="subject-icon">📝</span>
+        <h3>Exam Preparation</h3>
+        <p>All Grades</p>
+        <small>Practice Tests & Doubt Solving Sessions</small>
+      </div>
+    </div>
   </section>
 
   <section id="contact">
     <h2>Contact Us</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required /><br /><br />
-      <input type="email" placeholder="Your Email" required /><br /><br />
-      <textarea placeholder="Your Message"></textarea><br /><br />
+    <form action="https://formspree.io/f/xnnzwaya" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required /><br /><br />
+      <input type="email" name="email" placeholder="Your Email" required /><br /><br />
+      <textarea name="message" placeholder="Your Message"></textarea><br /><br />
       <button type="submit">Send</button>
     </form>
   </section>
