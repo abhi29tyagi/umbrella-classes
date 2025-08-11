@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Umbrella Classes</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfdfd;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      background-color: #ffffff;
+      border-bottom: 1px solid #eee;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(135deg, #ffda79, #ff8c8c);
+      color: #333;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .hero button {
+      background-color: #333;
+      color: #fff;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="umbrella-logo.png" alt="Umbrella Classes Logo" />
+    <nav>
+      <a href="#about">About</a>
+      <a href="#classes">Classes</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Umbrella Classes</h1>
+    <p>Every Student, Every Concept — Covered</p>
+    <button>Book a Free Trial</button>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      With over 7 years of teaching experience, Umbrella Classes offers personalised
+      Maths and Science lessons for students from Grade 5 to Grade 12, including 
+      CBSE, ICSE, and IGCSE boards. Our mission is to make learning easy, engaging, and effective.
+    </p>
+  </section>
+
+  <section id="classes">
+    <h2>Subjects & Grades</h2>
+    <ul>
+      <li>Mathematics – Grades 5–12</li>
+      <li>Science – Grades 5–10</li>
+      <li>Exam Prep & Doubt Solving Sessions</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required /><br /><br />
+      <input type="email" placeholder="Your Email" required /><br /><br />
+      <textarea placeholder="Your Message"></textarea><br /><br />
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Umbrella Classes | Email: info@umbrellaclasses.com</p>
+  </footer>
+</body>
+</html>
