@@ -24,8 +24,7 @@ header img {
 
 /* Updated Nav Link Styles */
 nav a {
-  color: #003366; /* Dark Blue text */
-  background-color: #fff; /* White background */
+  color: #fff; /*  White text */
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
@@ -36,7 +35,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #eaeaea;
+/*   background-color: #eaeaea; */
   color: #a7e200; /* Bright Green on hover */
 }
 
