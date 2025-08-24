@@ -22,15 +22,22 @@ header img {
   margin: 0 auto 10px;
 }
 
+/* Updated Nav Link Styles */
 nav a {
-  color: #a7e200; /* Bright Green */
+  color: #003366; /* Dark Blue text */
+  background-color: #fff; /* White background */
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+  display: inline-block;
 }
 
 nav a:hover {
-  text-decoration: underline;
+  background-color: #eaeaea;
+  color: #a7e200; /* Bright Green on hover */
 }
 
 /* Hero Section */
@@ -39,10 +46,6 @@ nav a:hover {
   color: white;
   text-align: center;
   padding: 40px 20px;
-}
-
-.green-title {
-  color: #a7e200;
 }
 
 .hero h1 {
@@ -62,77 +65,6 @@ nav a:hover {
 
 .hero button:hover {
   background-color: #8cc200;
-}
-
-/* About Us Styling */
-.about-highlight {
-  background: linear-gradient(90deg, #eaffd0 60%, #ffffff 100%);
-  border-left: 6px solid #a7e200;
-  border-radius: 8px;
-  padding: 20px 24px;
-  margin-top: 16px;
-  position: relative;
-  display: flex;
-  align-items: flex-start;
-}
-
-.about-icon {
-  font-size: 2em;
-  margin-right: 18px;
-  margin-top: 2px;
-}
-
-.about-text {
-  flex: 1;
-}
-
-.about-highlight ul {
-  margin: 8px 0 0 18px;
-  padding: 0;
-}
-
-.about-highlight li {
-  margin-bottom: 4px;
-}
-
-/* Subjects & Grades Styling */
-.subjects-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.subject-card {
-  background: #f0fff0;
-  border: 1px solid #a7e200;
-  border-radius: 12px;
-  padding: 20px 16px;
-  text-align: center;
-  width: 180px;
-  box-shadow: 0 2px 8px rgba(167,226,0,0.08);
-  transition: transform 0.2s;
-}
-
-.subject-card:hover {
-  transform: translateY(-5px) scale(1.04);
-  box-shadow: 0 6px 18px rgba(167,226,0,0.18);
-}
-
-.subject-icon {
-  font-size: 2em;
-  display: block;
-  margin-bottom: 8px;
-}
-
-.subject-card h3 {
-  margin: 8px 0 0 0;
-  color: #003366;
-}
-
-.subject-card small {
-  color: #4c4c4c;
 }
 
 /* Section Styling */
