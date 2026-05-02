@@ -239,7 +239,7 @@ nav a:hover {
 .testimonials-track {
   display: flex;
   gap: 20px;
-  animation: scroll-testimonials 12s linear infinite;
+  animation: scroll-testimonials 8s linear infinite;
 }
 
 @keyframes scroll-testimonials {
