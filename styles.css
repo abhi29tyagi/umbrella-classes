@@ -8,18 +8,22 @@ body {
   color: #333;
 }
 
-/* Header */
 header {
-  background-color: #003366; /* Dark Blue */
+  background-color: #003366;
   color: white;
   padding: 10px 20px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header img {
-  max-width: 120px;
-  display: block;
-  margin: 0 auto 10px;
+  max-width: 80px; /* slightly smaller since there are two now */
+}
+
+nav {
+  display: flex;
+  gap: 4px;
 }
 
 /* Updated Nav Link Styles */
@@ -366,6 +370,15 @@ footer p {
 
 /* Responsive */
 @media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  header img:last-child {
+    display: none; /* hide the second logo on mobile, keep it clean */
+  }
+  
   .hero h1 {
     font-size: 2em;
   }
