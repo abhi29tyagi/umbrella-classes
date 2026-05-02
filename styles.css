@@ -18,7 +18,8 @@ header {
 }
 
 header img {
-  max-width: 80px; /* slightly smaller since there are two now */
+  max-width: 80px;
+  display: block;
 }
 
 nav {
