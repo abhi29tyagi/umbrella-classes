@@ -226,7 +226,7 @@ nav a:hover {
   margin-bottom: 4px;
 }
 
-/* Testimonials Banner - Scrolling */
+/* Testimonials Banner - Scrolling (Increased Speed) */
 .testimonials-banner {
   background: linear-gradient(90deg, #f0f9ff, #f0fff0);
   border-radius: 12px;
@@ -239,7 +239,7 @@ nav a:hover {
 .testimonials-track {
   display: flex;
   gap: 20px;
-  animation: scroll-testimonials 25s linear infinite;
+  animation: scroll-testimonials 12s linear infinite;
 }
 
 @keyframes scroll-testimonials {
@@ -311,46 +311,6 @@ section h2 {
   font-size: 1.8em;
 }
 
-/* Contact Methods */
-.contact-methods {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  margin: 25px 0;
-  flex-wrap: wrap;
-}
-
-.contact-option {
-  background: #f0fff0;
-  border: 2px solid #a7e200;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  flex: 1;
-  min-width: 200px;
-  max-width: 250px;
-  transition: transform 0.3s;
-}
-
-.contact-option:hover {
-  transform: translateY(-5px);
-}
-
-.contact-icon {
-  font-size: 2.5em;
-  display: block;
-  margin-bottom: 10px;
-}
-
-.contact-option p {
-  margin: 0;
-  color: #333;
-}
-
-.contact-option strong {
-  color: #003366;
-}
-
 /* Contact Form */
 form input, form textarea {
   width: 100%;
@@ -413,10 +373,6 @@ footer p {
   .service-card {
     width: 100%;
     max-width: 300px;
-  }
-  
-  .contact-methods {
-    flex-direction: column;
   }
   
   .testimonial-card {
